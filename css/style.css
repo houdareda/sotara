@@ -208,7 +208,6 @@ input, button{
   background-size: cover;
   background-position: bottom;
   text-align: center;
-  padding: 30px 0 0;
 }
 
 
@@ -262,7 +261,6 @@ input, button{
 
 .doctor .text{
   text-align: center;
-  padding-bottom: 10px;
 }
 .doctor ul{
   display: flex;
