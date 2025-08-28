@@ -97,6 +97,11 @@ input, button{
   }
 }
 
+@media (min-width:992px){
+  .btn_img{
+    width: 240px;
+  }
+}
 
 
 
@@ -146,7 +151,7 @@ input, button{
   .hero ul li.white{
     border-radius: 20px;
     margin: 0 auto 10px;
-    width: 80%;
+    width: 76%;
     font-size: 4vw;
   }
   .hero ul li.last{
@@ -170,10 +175,14 @@ input, button{
 .hero{
   width: 50%;
 }
+
+.hero .top_img{
+  margin-top: -4vw;
+}
   .hero ul li.orange ,
   .hero ul li.white{
-  font-size: 24px;
-      width: 90%;
+  font-size: 22px;
+      width: 82%;
 }
 .hero ul li.last{
   font-size: 23px;
@@ -214,12 +223,18 @@ input, button{
 /* ==========  Responsive Design  ========== */
 /* ==========  sm ≥ 576px  ========== */
 @media (min-width:576px){
-
+.results .img-result{
+  width: 90%;
+  margin: 0 auto 20px;
+}
 }
 
 /* ==========  md ≥ 768px  ========== */
 @media (min-width:768px){
-
+.results .img-result{
+  width: 80%;
+  margin: 0 auto 20px;
+}
 }
 
 /* ==========  lg ≥ 992px  ========== */
@@ -230,7 +245,9 @@ input, button{
   flex-direction: column;
   justify-content: center;
 }
-
+.results .img-result{
+  margin-bottom: 20px;
+  }
 
 }
 
@@ -270,7 +287,7 @@ input, button{
 }
 .doctor ul li{
   width: 48.5%;
-  font-size: 3.8vw;
+  font-size: 3.6vw;
   line-height: 1.5;
   margin-bottom: 10px;
   text-align: center;
@@ -292,7 +309,11 @@ input, button{
 /* ==========  Responsive Design  ========== */
 /* ==========  sm ≥ 576px  ========== */
 @media (min-width:576px){
-
+ .doctor ul li{
+    margin-bottom: 20px;
+    width: 47%;
+    font-size: 3.5vw;
+  }
 
 }
 
@@ -303,12 +324,26 @@ input, button{
   }
   .doctor{
     width: 50%;
-    background: #FF6711;
-
   }
   .doctor .text{
     top: 40vw;
   }
+  .doctor ul li{
+    font-size: 24px;
+    width: 70%;
+  }
+  .doctor ul{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+    .doctor ul li.red:nth-child(3n){
+       background: linear-gradient(#4EA7F9, #487EFA);
+    }
+     .doctor ul li.blue:nth-child(2n){
+      background: linear-gradient(#E32315, #95130A);
+    }
+
 
 
 }
@@ -363,7 +398,7 @@ input, button{
 }
 
 .how_work ul li{
-  font-size: 4.5vw;
+  font-size: 4vw;
   line-height: 1.4;
   color: #fff;
   margin-bottom: 10px;
@@ -403,12 +438,21 @@ input, button{
   .how_work{
     width: 50%;
   }
-  .img_how_work{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
 
+  .how_work .top_how_work h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .how_work .top_how_work h5{
+    font-size: 27px;
+  }
+  .how_work ul li{
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+.how_work .imp p{
+  font-size: 18px;
+}
 }
 
 /* ==========  xl ≥ 1200px  ========== */
@@ -616,6 +660,9 @@ input, button{
 
 /* ==========  lg ≥ 992px  ========== */
 @media (min-width:992px){
+  .footer{
+        background: linear-gradient(#4EA7F9, #487EFA);
+  }
   .footer .boxs .box{
     gap: 20px;
   }
@@ -645,23 +692,23 @@ input, button{
 
 
 body.thanks_page_page {
-  background: url(../images/thanks.webp) center/cover;
+  background: url(../images/thanks.jpg) center/cover;
   min-height: 100vh;
 }
 
 .thanks_page {
   text-align: center;
-  padding-top: 25px;
+  padding-top: 200px;
 }
 
 .thanks_page h3 {
   font-size: 20px;
   color: #fcfefe;
-  background: linear-gradient( #F57F1C,#F43918);
+  background: linear-gradient(#EE2516,#A3160C);
   width: max-content;
   margin: 0 auto;
   border-radius: 12px;
-  padding: 3px 15px;
+  padding: 0px 11px 2px 60px;
 }
 
 .thanks_page p {
@@ -671,14 +718,25 @@ body.thanks_page_page {
   width: max-content;
   margin: 0 auto 15px;
   border-radius: 0px;
-  padding: 5px 13px;
+  padding: 1px 8px 3px 60px;
   }
 
-.thanks_page .text img {
-  width: 70px;
-  margin: 0 auto 10px;
-}
 
+
+.thanks_page .text{
+  position: relative;
+  width: max-content;
+  margin: 0 auto;
+  right: -10px;
+}
+.thanks_page .text .img_check{
+  position: absolute;
+  left: -32px;
+  top: 50%;
+  transform: translatey(-50%);
+  height: 102%;
+  width: auto;
+}
 /* ==========  Responsive Design  ========== */
 
 
