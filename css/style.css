@@ -113,9 +113,9 @@ input, button{
 .hero ul li{
   font-size: 5.1vw;
   line-height: 1.25;
-  padding: 4px 1px;
-  width: 94%;
-  border-radius: 20px;
+  padding: 2px 1px 6px;
+  width: 92%;
+  border-radius: 18px;
   margin: 0 auto 8px;
   box-shadow: 0 5px 15px #58585820;
 }
@@ -270,12 +270,12 @@ input, button{
 }
 .doctor ul li{
   width: 48.5%;
-  font-size: 3.7vw;
+  font-size: 3.8vw;
   line-height: 1.5;
   margin-bottom: 10px;
   text-align: center;
   color: #fff;
-  padding: 2px 0;
+  padding: 2px 0 4px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* Example value */;
   border-radius: 10px;
 }
