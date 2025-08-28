@@ -1,8 +1,7 @@
 /* Font Files */
-
 @font-face {
-  font-family: mainFont;
-  src: local("mainFont"), url("mainFont.ttf");
+  font-family: F_Bold;
+  src: local("F_Bold"), url("BOLD.TTF");
 }
 
 
@@ -20,7 +19,7 @@ html {
 }
 
 body , html{
-  font-family: mainFont, sans-serif;
+  font-family: F_Bold, sans-serif;
 }
 
 a{
@@ -79,7 +78,7 @@ input, button{
   
 }
 .div_btn .btn{
-  font-family: mainFont, sans-serif;
+  font-family: F_Bold, sans-serif;
   font-size: 28px;
   padding: 1px 38px;
   color: #fff  ;
@@ -112,12 +111,12 @@ input, button{
   text-align: center;
 }
 .hero ul li{
-  font-size: 5vw;
-  line-height: 1.3;
+  font-size: 5.1vw;
+  line-height: 1.25;
   padding: 4px 1px;
-  width: 96%;
+  width: 94%;
   border-radius: 20px;
-  margin: 0 auto 10px;
+  margin: 0 auto 8px;
   box-shadow: 0 5px 15px #58585820;
 }
 .hero ul li.white p{
@@ -271,7 +270,7 @@ input, button{
 }
 .doctor ul li{
   width: 48.5%;
-  font-size: 3.6vw;
+  font-size: 3.7vw;
   line-height: 1.5;
   margin-bottom: 10px;
   text-align: center;
@@ -364,7 +363,7 @@ input, button{
 }
 
 .how_work ul li{
-  font-size: 4.3vw;
+  font-size: 4.5vw;
   line-height: 1.4;
   color: #fff;
   margin-bottom: 10px;
@@ -462,7 +461,7 @@ input, button{
   padding: 12px 0;
 }
 .form_section .top_form p{
-  font-size: 5vw;
+  font-size: 5.1vw;
   line-height: 1.3;
   color: #fbfdfd;
 }
